@@ -62,7 +62,7 @@
         		"CidrBlock" : "10.0.2.0/24",
         		"Tags" : [ 
 				{"Key" : "Application", "Value" : { "Ref" : "AWS::StackId"}},
-				{"Key: "SubnetId", "Value": "public"}
+				{"Key": "SubnetId", "Value": "public"}
 			]
       		}
     	},
@@ -73,7 +73,7 @@
         		"VpcId" : { "Ref" : "VPC" },
         		"CidrBlock" : "10.0.3.0/24",
         		"Tags" : [ {"Key" : "Application", "Value" : { "Ref" : "AWS::StackId"} }, 
-				{"Key: "SubnetId", "Value": "prod"} 
+				{"Key": "SubnetId", "Value": "prod"} 
 			]
       		}
 
@@ -85,7 +85,7 @@
                         "VpcId" : { "Ref" : "VPC" },
                         "CidrBlock" : "10.0.4.0/24",
                         "Tags" : [ {"Key" : "Application", "Value" : { "Ref" : "AWS::StackId"} },
-                                {"Key: "SubnetId", "Value": "lab"}
+                                {"Key": "SubnetId", "Value": "lab"}
                         ]
                 }
 
