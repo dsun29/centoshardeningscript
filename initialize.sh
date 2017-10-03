@@ -26,3 +26,6 @@ authconfig --passalgo=sha512 —update
 
 ## Install PIP
 yum -y install python-pip
+
+## Install sudo
+yum -y install sudo
