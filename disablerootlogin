@@ -1,0 +1,3 @@
+vi /etc/ssh/sshd_config
+## make PermitRootLogin no
+## systemctl reload sshd
