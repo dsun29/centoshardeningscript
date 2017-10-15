@@ -1,0 +1,4 @@
+mkdir /var/data
+mkdir /var/data/blogdata
+docker run -p 4444:4444 -v /var/data/blogdata:/var/data 4680cd583201
+
